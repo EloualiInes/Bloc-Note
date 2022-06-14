@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Blocnote" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/white</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/marron_clair</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorSecondary">@color/gris_fonce</item>
+    </style>
+
+    <style name="btn_add">
+        <item name="backgroundTint">@color/marron_tres_fonce</item>
+    </style>
+
+    <style name="share_barre">
+        <item name="android:drawableStart">@drawable/icon_search_brown</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textColorHint">@color/white</item>
+    </style>
+    <style name="style_toolbar">
+        <item name="android:background">@color/noir_mode_dark</item>
+    </style>
+</resources>

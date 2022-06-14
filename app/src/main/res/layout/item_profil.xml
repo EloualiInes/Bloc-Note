@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/item_profil">
+
+    <TextView
+        android:id="@+id/titleDialogProfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mon profil"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/margin_petit"
+        android:textSize="@dimen/GrosCarac"
+        android:textStyle="bold"
+
+        />
+
+    <View
+        android:id="@+id/separation"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/marron_tres_fonce"
+        android:layout_below="@id/titleDialogProfil"
+        android:layout_marginTop="@dimen/margin_moyen"
+        android:layout_marginLeft="@dimen/margin_petit"
+        android:layout_marginRight="@dimen/margin_petit"/>
+
+    <TextView
+        android:id="@+id/text_nom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nom"
+        android:textStyle="bold"
+        android:layout_below="@id/separation"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/margin_petit"
+        android:layout_marginTop="@dimen/margin_petit"
+        />
+
+    <TextView
+        android:id="@+id/profil_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@id/text_nom"
+        android:text="@string/inconnu"
+        />
+
+    <TextView
+        android:id="@+id/text_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/email"
+        android:layout_alignStart="@id/text_nom"
+        android:layout_below="@id/text_nom"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/profil_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profil_name"
+        android:layout_centerHorizontal="true"
+        android:layout_alignStart="@id/profil_name"
+        android:text="@string/inconnu"/>
+
+    <TextView
+        android:id="@+id/text_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/adresse"
+        android:textStyle="bold"
+        android:layout_below="@id/text_email"
+        android:layout_alignStart="@id/text_nom"
+        />
+
+    <TextView
+        android:id="@+id/profil_adress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profil_email"
+        android:layout_centerHorizontal="true"
+        android:layout_alignStart="@id/profil_name"
+        android:text="@string/inconnu"
+        android:layout_marginBottom="@dimen/margin_moyen"
+        />
+
+
+
+</RelativeLayout>

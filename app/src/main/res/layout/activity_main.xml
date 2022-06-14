@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".MainActivity">
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:titleTextAppearance="@android:color/transparent"
+        app:title= " "
+        style="@style/style_toolbar">
+
+        <ImageButton
+            android:id="@+id/btn_profil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_person_24"
+            android:background="@drawable/btn_profil"
+
+            />
+        <TextView
+            android:id="@+id/grdTitre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toolbar"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/GrosCarac"
+            android:text="Mes notes"
+            android:textColor="@color/white"
+
+            />
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_marginStart="@dimen/margin_moyen"
+        android:layout_marginTop="@dimen/margin_moyen"
+        android:layout_marginEnd="@dimen/margin_moyen"
+        android:layout_marginBottom="@dimen/margin_moyen"
+        android:background="@drawable/search_input"
+        android:drawablePadding="@dimen/margin_leger"
+        android:inputType="text"
+        style="@style/share_barre"
+        android:hint="@string/recherche"
+        android:autofillHints=""
+        tools:ignore="LabelFor"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/liste_notes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/search"/>
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/btn_add"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        app:fabSize="normal"
+        android:src="@drawable/ic_baseline_add_24"
+        style="@style/btn_add"
+        app:borderWidth="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/margin_moyen"
+        android:layout_marginBottom="@dimen/margin_moyen"
+        android:contentDescription="@string/ajout"
+        android:outlineSpotShadowColor="@android:color/transparent"
+        tools:targetApi="p" />
+
+
+
+</RelativeLayout>

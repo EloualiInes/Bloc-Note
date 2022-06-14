@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Blocnote" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/marron_fonce </item>
+        <item name="colorAccent">@color/marron_clair</item>
+        <item name="android:textColor">@color/marron_tres_fonce</item>
+        <item name="android:textColorSecondary">@color/gris_fonce</item>
+    </style>
+
+
+    <style name="btn_add">
+        <item name="backgroundTint">@color/marron_clair</item>
+    </style>
+    <style name="share_barre">
+        <item name="android:drawableStart">@drawable/icon_search</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/marron_fonce</item>
+    </style>
+
+    <style name="style_toolbar">
+        <item name="android:background">@color/marron_clair</item>
+    </style>
+
+    <style name="style_dialogProfil">
+
+    </style>
+
+</resources>

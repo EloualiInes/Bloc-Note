@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/manga/AndroidStudioProjects/Blocnote/app/src/main/res/drawable-night/search_input.xml" value="0.1375" />
+        <entry key="..\:/Users/manga/AndroidStudioProjects/Blocnote/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.3828125" />
+        <entry key="..\:/Users/manga/AndroidStudioProjects/Blocnote/app/src/main/res/drawable/background_btn_save.xml" value="0.3769230769230769" />
+        <entry key="..\:/Users/manga/AndroidStudioProjects/Blocnote/app/src/main/res/drawable/btn_profil.xml" value="0.1" />
+        <entry key="..\:/Users/manga/AndroidStudioProjects/Blocnote/app/src/main/res/drawable/button_add.xml" value="0.3828125" />
+        <entry key="..\:/Users/manga/AndroidStudioProjects/Blocnote/app/src/main/res/drawable/drawable_arrondie.xml" value="0.3828125" />
+        <entry key="..\:/Users/manga/AndroidStudioProjects/Blocnote/app/src/main/res/drawable/empty_tall_divider.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/manga/AndroidStudioProjects/Blocnote/app/src/main/res/drawable/ic_baseline_add_24.xml" value="0.3828125" />
+        <entry key="..\:/Users/manga/AndroidStudioProjects/Blocnote/app/src/main/res/drawable/ic_baseline_add_a_photo_24.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/manga/AndroidStudioProjects/Blocnote/app/src/main/res/drawable/ic_baseline_add_photo_alternate_24.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/manga/AndroidStudioProjects/Blocnote/app/src/main/res/drawable/ic_baseline_add_white_24.xml" value="0.1638888888888889" />
+        <entry key="..\:/Users/manga/AndroidStudioProjects/Blocnote/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1" />
+        <entry key="..\:/Users/manga/AndroidStudioProjects/Blocnote/app/src/main/res/drawable/ic_baseline_share_24.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/manga/AndroidStudioProjects/Blocnote/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/manga/AndroidStudioProjects/Blocnote/app/src/main/res/drawable/search_input.xml" value="0.3828125" />
+        <entry key="..\:/Users/manga/AndroidStudioProjects/Blocnote/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/manga/AndroidStudioProjects/Blocnote/app/src/main/res/layout/activity_note_courantes.xml" value="0.14492753623188406" />
+        <entry key="..\:/Users/manga/AndroidStudioProjects/Blocnote/app/src/main/res/layout/item_note.xml" value="0.33" />
+        <entry key="..\:/Users/manga/AndroidStudioProjects/Blocnote/app/src/main/res/layout/item_profil.xml" value="0.33" />
+        <entry key="..\:/Users/manga/AndroidStudioProjects/Blocnote/app/src/main/res/layout/note_courante.xml" value="0.22" />
+        <entry key="..\:/Users/manga/AndroidStudioProjects/Blocnote/app/src/main/res/layout/page_search_note.xml" value="0.33585858585858586" />
+        <entry key="..\:/Users/manga/AndroidStudioProjects/Blocnote/app/src/main/res/layout/search_bar.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/manga/AndroidStudioProjects/Blocnote/app/src/main/res/menu/menu.xml" value="0.1" />
+        <entry key="..\:/Users/manga/AndroidStudioProjects/Blocnote/app/src/main/res/menu/menu_note_courante.xml" value="0.2861111111111111" />
+        <entry key="..\:/Users/manga/AndroidStudioProjects/Blocnote/app/src/main/res/xml/network_security_config.xml" value="0.16304347826086957" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

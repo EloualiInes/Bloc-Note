@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="GrandTitre">
+        <item name="android:textSize">32sp</item>
+    </style>
+    <style name="TitreNote" parent="GrandTitre">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

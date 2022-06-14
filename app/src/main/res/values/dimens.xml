@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dimension pour les margins, padding ... -->
+
+    <dimen name="margin_leger">5dp</dimen>
+    <dimen name="margin_petit">10dp</dimen>
+    <dimen name="margin_moyen">20dp</dimen>
+    <dimen name="margin_grand">30dp</dimen>
+
+    <!-- Dimension taille texte -->
+    <dimen name="TresGrosCarac">28sp</dimen>
+    <dimen name="GrosCarac">20sp</dimen>
+    <dimen name="moyenCarac">15sp</dimen>
+    <dimen name="petitCarac">12sp</dimen>
+
+
+</resources>

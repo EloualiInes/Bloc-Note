@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Bloc-note</string>
+    <string name="bloc_notes">Bloc-notes</string>
+    <string name="theme_sombre">Thème Sombre</string>
+    <string name="theme_clair">Thème Clair</string>
+    <string name="mode_sombre">Mode Sombre</string>
+    <string name="recherche">Recherche</string>
+    <string name="titre_note">TitreNote</string>
+    <string name="date_note">18/10/20</string>
+    <string name="ajout">Ajout</string>
+    <string name="titreNote">Titre</string>
+    <string name="ma_note">Ma note</string>
+    <string name="toutes_mes_notes">Toutes mes notes</string>
+    <string name="supprimer">Supprimer</string>
+    <string name="mon_profil">Mon profil</string>
+    <string name="nom">Nom :</string>
+    <string name="inconnu">Inconnu</string>
+    <string name="email">Email :</string>
+    <string name="adresse">Adresse :</string>
+    <string name="tel">Tel :</string>
+    <string name="underlined_dynamic_text">%s</string>
+    <string name="enregistrer">Enregistrer</string>
+</resources>
